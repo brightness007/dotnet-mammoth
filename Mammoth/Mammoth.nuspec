@@ -3,6 +3,9 @@
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
+    <dependencies>
+      <dependency id="Ionic.Zip" version="[1.9.1.8]" />
+    </dependencies>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
