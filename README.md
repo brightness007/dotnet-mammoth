@@ -1,4 +1,4 @@
-# Mammoth .docx to HTML converter for .NET
+# Mammoth .docx to HTML converter for .NET (4.0)
 
 Mammoth is designed to convert .docx documents,
 such as those created by Microsoft Word,
@@ -12,6 +12,8 @@ rather than attempting to exactly copy the styling (font, text size, colour, etc
 There's a large mismatch between the structure used by .docx and the structure of HTML,
 meaning that the conversion is unlikely to be perfect for more complicated documents.
 Mammoth works best if you only use styles to semantically mark up your document.
+
+Ionic.Zip is used instead of ZipArchive, thus this library could be used in .Net 4.0 project.
 
 The following features are currently supported:
 

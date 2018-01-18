@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Mammoth.Cli</RootNamespace>
     <AssemblyName>Mammoth.Cli</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,5 +40,8 @@
       <Project>{51C5CBD6-8809-4D5E-BABE-1787A16F5ED8}</Project>
       <Name>Mammoth</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
 </Project>
